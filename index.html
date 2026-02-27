@@ -7,47 +7,61 @@
     <title>Corporate Website UI</title>
     <style>
         body{
-            background-color: #fafdff;
-            color: black;
+        background-color: #fafdff;
+        color: black;
         }
         h1{
             font-weight: bold;
-            text-align: centers;
+            text-align: center;
+        }
+        nav a {
+        margin: 0 10px; /* add space between links */
+        text-decoration: none;
+        color: #007bff;
+        }      
+
+        nav a:hover {
+        text-decoration: underline;
         }
         button{
             border-radius: 20px;
             text-align: center;
         }
-        footer{
-            text-align: center;
+        footer {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
+        background-color: #e9ecef; /* light gray background */
         }
     </style>
 </head>
 <body>
+ 
+    <header>
     <div class="container text-center mt-5">
     <h1 class="text-primary">TechNova Solutions Pvt. Ltd.</h1>
     <p class="text-muted">Innovating Your Digital Future</p>
-    <p>
+    <nav>
     <a href="index.html" target="_blank">Home</a>
     <a href="about.html" target="_blank">About</a>
     <a href="service.html" target="_blank">Services</a>
     <a href="career.html" target="_blank">Careers</a>
     <a href="contact.html" target="_blank">Contact</a>
-    </p>
+    </nav>
+    </div>
+</header>
     
-    <br>
-
+   <div class="container text-center mt-5">
     <h3>Empowering Businesses with Smart Digital Solutions</h3>
-    <p>We provide innovative web, mobile, and digital solutions to help your  business grow faster.</p>
+    <p>We provide innovative web, mobile, and digital solutions to help your business grow faster.</p>
     <br>
-    
-    <a href="contact.html" class="btn btn-success">Get Started</a>    
-       </div>
-  
+    <a href="contact.html" class="btn btn-success">Get Started</a>
+</div>
+
     <footer>
     <p>&copy; 2026 TechNova Solutions Pvt. Ltd. All Rights Reserved.</p>
 
-    <a href="http://github.com/devangiparmar">GitHub</a>
+    <a href="http://github.com/devangiparmar" target="_blank">GitHub</a>
     
     </footer>
 </body>
